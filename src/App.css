@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+/* confog-global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* config-body */
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #4169E1;
+
+  font-family: 'Titan One', cursive;
+}
+
+/* config-div */
+.divGlobal {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
